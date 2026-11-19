@@ -1,13 +1,6 @@
 # Suite de l'exploration — Taiwanese Bankruptcy
 
-## Principe de séparation des notebooks
-
-| Notebook | Rôle | Règle |
-|---|---|---|
-| `Exploration.ipynb` | **Exposer des faits** sur les données | Aucune transformation de la donnée destinée au modèle : on observe, on mesure, on conclut en markdown |
-| Notebook de modélisation | **Appliquer les décisions** tirées de l'exploration, puis entraîner et évaluer les modèles | Toute transformation se fait ici, dans l'ordre de la feuille de route (section 4) |
-
-> Seule exception tolérée côté exploration : `data.columns = data.columns.str.strip()`. Elle ne change aucune valeur, elle rend seulement les colonnes accessibles par leur nom. Elle devra être **refaite** dans le notebook de modélisation.
+> Le principe de séparation entre `DataExploration.ipynb` et `Modelisation.ipynb` est décrit dans le [README](README.md).
 
 ---
 
